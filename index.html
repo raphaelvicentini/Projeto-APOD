@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA | APOD</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo-nasa" src="nasa-logo1.png">
+        <nav>
+            <a class="box primeira" href="https://apod.nasa.gov/apod/archivepix.html">Arquivo</a>
+            <a class="box segunda" href="https://apod.nasa.gov/apod/lib/apsubmit2015.html">Submissões</a>
+            <a class="box terceira" href="https://apod.nasa.gov/apod/lib/aptree.html">Índice</a>
+            <a class="box quarta" href="https://antwrp.gsfc.nasa.gov/cgi-bin/apod/apod_search">Pesquisar</a>
+            <a class="box quinta" href="https://apod.nasa.gov/apod/calendar/allyears.html">Calendário</a>
+            <a class="box sexta" href="https://apod.nasa.gov/apod.rss">RSS</a>
+            <a class="box setima" href="https://apod.nasa.gov/apod/lib/edlinks.html">Educação</a>
+            <a class="box oitava" href="https://apod.nasa.gov/apod/lib/about_apod.html">Sobre a APOD</a>
+            <a class="box nona" href="http://asterisk.apod.com/discuss_apod.php?date=201108">Discutir</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Foto Astronômica do Dia</h1>
+            <p><a href="https://apod.nasa.gov/apod/archivepix.html"> Descubra o cosmos!</a> Cada dia é apresentada uma
+                imagem ou fotografia diferente do nosso fascinante universo, juntamente com uma breve explicação escrita
+                por um astrônomo profissional.</p>
+            <input id="data" type="date">
+            <button id="busca">Pesquisar</button>
+        </div>
+        <div class="js">
+            <p class="data-js"></p><br>
+            <div id="imgjs"></div><br>
+            <p class="titulo-js"></p><br>
+            <p class="explanation-js"></p>
+        </div>
+    </main>
+    <footer>
+        Autores e Editores: <a href="http://www.phy.mtu.edu/faculty/Nemiroff.html">Robert Nemiroff</a> (<a
+            href="http://www.phy.mtu.edu/">MTU</a>) & <a
+            href="https://antwrp.gsfc.nasa.gov/htmltest/jbonnell/www/bonnell.html">Jerry Bonnell</a> (<a
+            href="http://www.astro.umd.edu/">UMCP</a>)<br>
+        Oficial da NASA: Phillip Newman <a href="https://apod.nasa.gov/apod/lib/about_apod.html#srapply">Direitos
+            específicos se aplicam </a>.<br>
+        <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Política de privacidade da NASA e avisos
+            importantes</a><br>
+        Um serviço de: <a href="https://astrophysics.gsfc.nasa.gov/"> ASD</a> at <a href="https://www.nasa.gov/">
+            NASA</a> / <a href="https://www.nasa.gov/centers/goddard/"> GSFC </a><br>
+        & <a href="http://www.mtu.edu/">Michigan Tech. U.</a>
+        <br><br><br><br>
+        <p>Copyright 2022 - Raphael Vicentini
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
